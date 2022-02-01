@@ -1,14 +1,30 @@
-// console.log('Hello world');
+// function printOperations(a, b) {
+//     if (typeof a !== 'number' || typeof b !== 'number') {
+//       throw new Error('Both arguments must be numbers!');
+//     }
+  
+//     console.log(a + b, a / b);
+//   }
+  
+//   // The function call below should print: 12 1 
+//   printOperations(6, 6);
+  
+//   function exclaim(name, count) {
+//     for (let i = 0; i < count; i += 1) {
+//       console.log(`${name}!`);
+//     }
+//   }
+//   // Exclaim 'Muriel!' six times
+//   exclaim( 'Muriel',6);
+   
 
-
-
-
-
-
-
-
-
-
+  function proclaim(status?: string) {
+    console.log(`I'm ${status || 'not ready...'}`);
+  }
+  
+  proclaim();
+  proclaim('ready?');
+  proclaim('ready!');
 
 
 // a variable can not be assigned 2 values of a diff type
